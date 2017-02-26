@@ -13,3 +13,8 @@ include::frontmatter.ad[]
 :numbered:
 
 include::ch01/ch01.ad[]
+
+:numbered!:
+
+[appendix]
+include::appendix.ad[]
