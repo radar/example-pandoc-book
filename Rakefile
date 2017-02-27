@@ -42,7 +42,8 @@ namespace :book do
       'pdf-stylesdir' => 'pdf-styles',
       'pdf-style' => 'book'
     }
-    command = ["bundle", "exec", args[:command], "book.ad",
+    # book-highlights is used here purely for pygments highlighting
+    command = ["bundle", "exec", args[:command], "book-highlights.ad",
            "-D", output_path(args[:format]).to_s, # destination directory
            "-o", output_filename(args[:ext]).to_s, # output file
            "-B", project_path.to_s].join(" ") # Project base path
