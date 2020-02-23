@@ -68,7 +68,7 @@ GEM
     rainbow (2.2.1)
     rake (12.0.0)
     ruby-rc4 (0.1.5)
-    rubyzip (1.2.0)
+    rubyzip (2.2.0)
     safe_yaml (1.0.4)
     slop (3.6.0)
     thread_safe (0.3.5)
