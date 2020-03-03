@@ -31,11 +31,15 @@ Notes stand out different from the text.
 Here is a listing without a title
 ----
 
+Ordered list:
+
 1. This
 2. Is
 3. An
 4. Ordered
 5. List
+
+Unordered list:
 
 * This
 * List
