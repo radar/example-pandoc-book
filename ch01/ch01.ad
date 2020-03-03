@@ -27,6 +27,21 @@ image::ch01/images/welcome_aboard.png[Welcome Aboard]
 Notes stand out different from the text.
 ====
 
+----
+Here is a listing without a title
+----
+
+1. This
+2. Is
+3. An
+4. Ordered
+5. List
+
+* This
+* List
+* Is
+  * Unordered
+
 === Sub-Section
 
 This is a subsection of Chapter 1.
