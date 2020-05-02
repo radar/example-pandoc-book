@@ -1,9 +1,8 @@
+= Your title goes here
 :numbered!:
 :toc: right
 :toclevels: 2
 :front-cover-image: image:cover.png[width=1050,height=1600]
-
-# Your title goes here
 
 include::frontmatter.ad[]
 

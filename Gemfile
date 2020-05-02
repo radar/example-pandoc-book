@@ -21,3 +21,5 @@ end
 group :pdf, :epub do
   gem 'pygments.rb'
 end
+
+gem 'sass'

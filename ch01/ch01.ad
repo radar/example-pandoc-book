@@ -5,16 +5,19 @@ Here's what some text will look like.
 Here's a code example. Its source should be highlighted:
 
 [source, ruby]
-.book.rb
-----
-class Book
-  attr_reader :title
+.db/migrate/[date]_create_purchases.rb
+-----
+class CreatePurchases < ActiveRecord::Migration[6.0]
+  def change
+    create_table :purchases do |t|
+      t.string :name
+      t.decimal :cost
 
-  def initialize(title)
-    @title = title
+      t.timestamps
+    end
   end
 end
-----
+-----
 
 Here's an image:
 
